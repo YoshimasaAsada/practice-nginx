@@ -8,3 +8,5 @@ COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
 COPY . .
+CMD ["rails", "server", "-e"]
+# sock　file読みにいく

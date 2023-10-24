@@ -5,3 +5,5 @@ RUN yarn install
 WORKDIR /app
 
 COPY . .
+
+# CMD ["yarn", "dev"]
